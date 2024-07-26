@@ -2,7 +2,6 @@ import streamlit as st
 import cohere
 import os
 import dotenv
-from better_profanity import profanity
 
 dotenv.load_dotenv()
 
