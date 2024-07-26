@@ -2,10 +2,11 @@ import streamlit as st
 import cohere
 import os
 import dotenv
+from better_profanity import profanity
 
 dotenv.load_dotenv()
 
-COHERE_API_KEY = os.getenv("COHERE_API_KEY")
+COHERE_API_KEY = os.getenv("COHERE_API_KEY") or "8Xx2ZF53ltoSjCDc5bFEnLUOtt5n2PxsAM4hXf8n"
 
 client = cohere.Client(api_key=COHERE_API_KEY)
 
