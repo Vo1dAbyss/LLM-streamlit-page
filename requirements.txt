@@ -1,4 +1,3 @@
 cohere
 streamlit
 python-dotenv
-better-profanity
