@@ -1,3 +1,2 @@
-cohere
 streamlit
-python-dotenv
+hugchat
